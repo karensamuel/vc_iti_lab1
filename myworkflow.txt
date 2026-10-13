@@ -4,4 +4,20 @@ git init lab1
 git config --list
 -- make the deflt main
 git config --global init.defaultBranch main
--- 
+-- add files
+git add .
+-- commmit
+git commit -m "first commit"
+-- for connecting remote with local
+git remote add origin git@github.com:karensamuel/vc_iti_lab1.git
+-- to push all the updates 
+git push -u origin main
+-- add and commit new file
+git add .
+ git commit -m "add mycv file"
+ -- changed name of file then ammend
+ git commit --amend -am "add my eng"   
+ --commit the added skill
+ git commit  -am "add bad skil"
+ -- remove the prev commit
+ git reset --hard HEAD^ 
