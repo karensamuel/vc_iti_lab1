@@ -1,0 +1,7 @@
+-- to initialize repo locally
+git init lab1
+-- to check for configs
+git config --list
+-- make the deflt main
+git config --global init.defaultBranch main
+-- 
